@@ -16,9 +16,10 @@ var Main = (props) => {
   return (
     <div>
       <CustomNav></CustomNav>
-      <div>
-          <p>Main.JSX rendered</p>
+      <div className="row">
+        <div className="column small-centered medium-6 large-4">
           {props.children}
+        </div>
       </div>
     </div>
   );
